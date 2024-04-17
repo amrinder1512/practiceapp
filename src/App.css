@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #d17777;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.header{
+  background-color: rgb(241, 205, 205);
+  height: 100%;
+  padding: 50px;
+  color:#1d0505;
+  text-align: center;
+  justify-content:left;
+}
+/* .list{
+  background-color: #d17777;  
+  width: 60%;
+  padding: 10px 16px;
+  display: flex;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
+} */
+
+.home{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 3px 5px black; 
+}
+.datalist{
+  margin: 50px;
+  padding: 20px; 
+}
+.block{
+  background-color: rgb(177, 174, 174);
+  box-shadow: 4px 7px 9px  rgb(108, 100, 100);
+  font-family: math;
+  font-weight: bolder;
+  color: #100101;
+  padding: 20px;
+  margin: 20px;
+
+}
+.block:hover{
+  background-color: rgb(180, 143, 143);
+}
+.link{
+  background-color:rgb(177, 174, 174);
+  box-shadow: 10px 10px 5px black; 
+  padding: 20px;
+  font-weight: bolder;
+}
+
+
+.PageDetails{
+  background-color: wheat;
+  margin-top: 50px;
+  font-weight:bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0f0e0e;
+  padding: 20px; 
+  
+}
+.PageDetails p{
+  text-align: justify;
+}
+
+.create{
+  background-color: wheat;
+  margin: 40px;
+  padding: 40px;
+  max-width:1500px;
+  text-align: center;
+  align-items: center;
+  }
+
+  .create label{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  .create input, .create textarea, .create select {
+    width: 60%;
+    padding: 10px 6px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  .create button{
+    padding: 10px 15px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    background-color:rgb(21, 148, 133);
+    color: white;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+  }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
